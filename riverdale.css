@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@300&family=Sedgwick+Ave+Display&family=Smokum&display=swap');
+body {
+    background-image: url(aaa.png\ -\ Copia.jpg); /*coloca imagem no fundo*/
+    background-repeat: no-repeat; /*não repete o fundo */
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-family: "Sedgwick Ave Display", cursive;
+    color:rgb(19, 19, 137);
+    font-size: 60px;
+}
+
+forms {
+    font-family: 'Playfair Display', serif;
+}
+
+textarea{
+    resize: none;
+    width: 95%;
+}
+
+fieldset {
+    width: 500px;
+    
+}
+.river {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    max-height: 1000px;
+}
+.img {
+    width: 20px;
+    height: 700px;
+    left: 300px;
+    display: inline-flex;
+    margin-left: 50px;
+    margin-top: 105px;
+}
+.enviar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
